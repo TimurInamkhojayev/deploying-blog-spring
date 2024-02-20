@@ -1,0 +1,63 @@
+
+
+/*HEADER STYLES*/
+
+.navbar {
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Цвет фона */
+    padding: 10px 20px;
+    color: rgb(123, 123, 123); /* Цвет текста */
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для логотипа */
+.logo img {
+    max-width: 40px; /* Максимальная ширина логотипа */
+    margin-left: 30px;
+}
+
+/* Стили для кнопок */
+.nav-buttons a {
+    text-decoration: none;
+    color: rgb(98, 98, 98); /* Цвет текста кнопок */
+    margin-left: 20px; /* Расстояние между кнопками */
+}
+
+/* Стили для активной кнопки (по желанию) */
+.nav-buttons a:hover {
+    text-decoration: underline;
+}
+
+
+.font{
+    font-family: Arial, sans-serif;
+}
+
+
+
+/*FOOTER STYLES*/
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 16px;
+}
